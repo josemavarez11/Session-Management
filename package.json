@@ -1,0 +1,25 @@
+{
+  "name": "sessions-test",
+  "version": "1.0.0",
+  "description": "Sessions Testing",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:1": "nodemon run index.js"
+  },
+  "author": "José",
+  "license": "ISC",
+  "dependencies": {
+    "connect-pg-simple": "^9.0.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemailer": "^6.9.7",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
